@@ -1,0 +1,89 @@
+{
+  "Table": [
+    {
+      "rowcount": 23
+    }
+  ],
+  "Table1": [
+    {
+      "rownum": 1,
+      "storeName": "天润广场",
+      "addressDetail": "东风一路11号天润广场首层",
+      "pro": "24小时,Wi-Fi,点唱机,店内参观,礼品卡",
+      "provinceName": "广东省",
+      "cityName": "阳江市"
+    },
+    {
+      "rownum": 2,
+      "storeName": "阳春大道",
+      "addressDetail": "阳春大道盛世大厦1楼",
+      "pro": "24小时,Wi-Fi,点唱机,店内参观,礼品卡,手机点餐",
+      "provinceName": "广东省",
+      "cityName": "阳江市"
+    },
+    {
+      "rownum": 3,
+      "storeName": "三环",
+      "addressDetail": "三环路工业一街2号大润发首层",
+      "pro": "24小时,Wi-Fi,点唱机,店内参观,礼品卡",
+      "provinceName": "广东省",
+      "cityName": "阳江市"
+    },
+    {
+      "rownum": 4,
+      "storeName": "北环路",
+      "addressDetail": "江城区瑞禾路A-03-01号一层",
+      "pro": "Wi-Fi,店内参观,礼品卡",
+      "provinceName": "广东省",
+      "cityName": "阳江市"
+    },
+    {
+      "rownum": 5,
+      "storeName": "阳西",
+      "addressDetail": "城人民北路耀宝凯旋豪庭商住小区二期商场1楼A08号商铺",
+      "pro": "24小时,Wi-Fi,点唱机,店内参观,礼品卡",
+      "provinceName": "广东省",
+      "cityName": "阳江市"
+    },
+    {
+      "rownum": 6,
+      "storeName": "京源城",
+      "addressDetail": "新华路与振士中路交汇处京源城购物中心首层108号商铺",
+      "pro": "24小时,Wi-Fi,点唱机,店内参观",
+      "provinceName": "广东省",
+      "cityName": "阳江市"
+    },
+    {
+      "rownum": 7,
+      "storeName": "新江北路",
+      "addressDetail": "西平路以西、新江北路以北S2地块君怡花园小区二期中心商场首层",
+      "pro": "24小时,Wi-Fi,点唱机,店内参观",
+      "provinceName": "广东省",
+      "cityName": "阳江市"
+    },
+    {
+      "rownum": 8,
+      "storeName": "百利广场",
+      "addressDetail": "东风一路3号百利广场一层",
+      "pro": "Wi-Fi,点唱机,店内参观",
+      "provinceName": "广东省",
+      "cityName": "阳江市"
+    },
+    {
+      "rownum": 9,
+      "storeName": "盈信广场",
+      "addressDetail": "东风三路88号盈信广场首层",
+      "pro": "24小时,Wi-Fi,点唱机,店内参观",
+      "provinceName": "广东省",
+      "cityName": "阳江市"
+    },
+    {
+      "rownum": 10,
+      "storeName": "阳江新达城",
+      "addressDetail": "新江北路北侧、创业路东侧福盈新达城首层",
+      "pro": "24小时,Wi-Fi,点唱机,店内参观",
+      "provinceName": "广东省",
+      "cityName": "阳江市"
+    }
+  ]
+}

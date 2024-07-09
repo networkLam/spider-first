@@ -1,0 +1,33 @@
+{
+  "Table": [
+    {
+      "rowcount": 23
+    }
+  ],
+  "Table1": [
+    {
+      "rownum": 21,
+      "storeName": "百胜餐饮(广东)有限公司阳江动车站",
+      "addressDetail": "城南街道站前大道高铁站首层肯德基",
+      "pro": "24小时,景点店",
+      "provinceName": "广东省",
+      "cityName": "阳江市"
+    },
+    {
+      "rownum": 22,
+      "storeName": "阳江动车站",
+      "addressDetail": "站前路阳江站候车层编号阳江1F01商铺",
+      "pro": "手机点餐",
+      "provinceName": "广东省",
+      "cityName": "阳江市"
+    },
+    {
+      "rownum": 23,
+      "storeName": "港湾豪庭",
+      "addressDetail": "新325国道137号港湾豪庭A1幢首层商铺",
+      "pro": "Wi-Fi,点唱机,店内参观,手机点餐",
+      "provinceName": "广东省",
+      "cityName": "阳江市"
+    }
+  ]
+}

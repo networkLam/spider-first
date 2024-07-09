@@ -1,0 +1,89 @@
+{
+  "Table": [
+    {
+      "rowcount": 23
+    }
+  ],
+  "Table1": [
+    {
+      "rownum": 11,
+      "storeName": "新都汇",
+      "addressDetail": "1005-1009铺东门南路333号新都汇时代广场购物中心二期2号楼一层1001-1003铺、",
+      "pro": "Wi-Fi,点唱机,店内参观",
+      "provinceName": "广东省",
+      "cityName": "阳江市"
+    },
+    {
+      "rownum": 12,
+      "storeName": "阳江旅游大道",
+      "addressDetail": "闸坡镇旅游大道北（N-西-009、N-西-010）莳元大厦首层",
+      "pro": "24小时,Wi-Fi,店内参观",
+      "provinceName": "广东省",
+      "cityName": "阳江市"
+    },
+    {
+      "rownum": 13,
+      "storeName": "东风三路",
+      "addressDetail": "东风三路123号东汇城广场1-3号部分商场广百百货阳江店首层",
+      "pro": "Wi-Fi,点唱机,店内参观,手机点餐",
+      "provinceName": "广东省",
+      "cityName": "阳江市"
+    },
+    {
+      "rownum": 14,
+      "storeName": "东风三路",
+      "addressDetail": "东风三路123号东汇城广场1-3号部分商场广百百货阳江店首层",
+      "pro": "Wi-Fi,点唱机,店内参观,手机点餐",
+      "provinceName": "广东省",
+      "cityName": "阳江市"
+    },
+    {
+      "rownum": 15,
+      "storeName": "百胜餐饮(广东)有限公司阳东万汇城",
+      "addressDetail": "东城镇东风四路331号中兴大厦首层商铺",
+      "pro": "Wi-Fi,店内参观,手机点餐",
+      "provinceName": "广东省",
+      "cityName": "阳江市"
+    },
+    {
+      "rownum": 16,
+      "storeName": "百胜餐饮(广东)有限公司阳东万汇城",
+      "addressDetail": "东城镇东风四路331号中兴大厦首层商铺",
+      "pro": "Wi-Fi,店内参观,手机点餐",
+      "provinceName": "广东省",
+      "cityName": "阳江市"
+    },
+    {
+      "rownum": 17,
+      "storeName": "百胜餐饮(广东)有限公司东湖广场K-COFFEE",
+      "addressDetail": "春城街道东湖公园二期会展中心综合楼第一层L1-118号自编",
+      "pro": "手机点餐",
+      "provinceName": "广东省",
+      "cityName": "阳江市"
+    },
+    {
+      "rownum": 18,
+      "storeName": "阳江动车站",
+      "addressDetail": "站前路阳江站候车层编号阳江1F01商铺",
+      "pro": "手机点餐",
+      "provinceName": "广东省",
+      "cityName": "阳江市"
+    },
+    {
+      "rownum": 19,
+      "storeName": "百胜餐饮(广东)有限公司阳江动车站",
+      "addressDetail": "城南街道站前大道高铁站首层肯德基",
+      "pro": "24小时,景点店",
+      "provinceName": "广东省",
+      "cityName": "阳江市"
+    },
+    {
+      "rownum": 20,
+      "storeName": "港湾豪庭",
+      "addressDetail": "新325国道137号港湾豪庭A1幢首层商铺",
+      "pro": "Wi-Fi,点唱机,店内参观,手机点餐",
+      "provinceName": "广东省",
+      "cityName": "阳江市"
+    }
+  ]
+}

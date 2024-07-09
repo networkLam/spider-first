@@ -1,0 +1,34 @@
+"""
+write: terence 
+create date :2024/1/24 
+"""
+import urllib.request
+import urllib.parse
+import json
+url = "https://fanyi.baidu.com/v2transapi?from=en&to=zh"
+data = {
+"from": "en",
+"to": "zh",
+"query":"as far as i k",
+"transtype": "realtime",
+"simple_means_flag": "3",
+"sign": "90447.361086",
+"token": "9b692dfc2aaf82f693b095cd8f11ebe0",
+"domain": "common",
+"ts": "1706070359875"
+}
+# 定义请求头
+headers = {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 "
+                  "Safari/537.36",
+    "Cookie": "BIDUPSID=D8258F447C11D59DD53329BA1EE5F8CE; PSTM=1682914753; BAIDUID=D8258F447C11D59DD53329BA1EE5F8CE:SL=0:NR=10:FG=1; ab_jid=d37d469ccb36e68bdce6939c781f2324bb43; ab_jid_BFESS=d37d469ccb36e68bdce6939c781f2324bb43; BDUSS=zZYWHJBMkk1NG5sYlhPTEVheDlETlhDb3NycG9CdVBrV2QxZTlEYmtmd2NnSDFsSVFBQUFBJCQAAAAAAAAAAAEAAAAvUeSwdGVyZW5jZURyZWFtAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABzzVWUc81VlS; BDUSS_BFESS=zZYWHJBMkk1NG5sYlhPTEVheDlETlhDb3NycG9CdVBrV2QxZTlEYmtmd2NnSDFsSVFBQUFBJCQAAAAAAAAAAAEAAAAvUeSwdGVyZW5jZURyZWFtAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABzzVWUc81VlS; MCITY=-199%3A; H_PS_PSSID=39998_39939_40156; BDORZ=B490B5EBF6F3CD402E515D22BCDA1598; H_WISE_SIDS=110085_288152_282932_289948_289952_289957_290344_290555_290562_269893_289527_281879_292246_282466_292506_292677_291327_292172_293237_290994_287701_293583_293754_292168_291029_294108; ab_bid=bdec5807acfe07b4bd99404445dc6537e1aa; ab_sr=1.0.1_MzQ1MzNmMWIzYjFhZjkyN2JkOGZlYTRmZDQ1MTliNGQ4MDFmNmZlMzIxZmJiYWRjY2UzZjIzYzE2ZTYwODlkOTIwNGU2N2RlMTQwN2JmYTZjMGU2N2M4MGJhMThjM2JjODM1YjdhM2M0MjhlMjZhMGJlZjI1ZmNiMTBkNGViODgxZmJiMTYwOTY3MmUyZGJjN2QyYWI0N2M0MWMzYWNjMjM1Y2Q2ZjU4ZWZjNmVkZTNiMWNjYzkyZDc1ZDgwMTQy; BA_HECTOR=84250g2h210585ag8g80258gqr8nmf1ir140f1t; BAIDUID_BFESS=D8258F447C11D59DD53329BA1EE5F8CE:SL=0:NR=10:FG=1; ZFY=Rtw9PY9S1KZSES8qUh1sxNPjCRFvcjBJoJMq6864lRA:C"
+}
+
+data = urllib.parse.urlencode(data).encode("utf-8")
+request = urllib.request.Request(url=url,data=data,headers=headers)
+response = urllib.request.urlopen(request)
+content = response.read().decode("utf-8")
+print(content)
+# 把字节文件转为对象
+content = json.loads(content)
+print(content)

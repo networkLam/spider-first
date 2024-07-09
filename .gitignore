@@ -1,0 +1,10 @@
+
+*.jpg
+*.txt
+
+/html
+/photos
+/productDetailsPicture
+/productPic
+/手机 - 商品搜索 - 京东_files
+/chromedriver.exe
