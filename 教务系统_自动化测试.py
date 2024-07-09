@@ -4,7 +4,7 @@ create date :2024/2/27
 """
 """
 write: terence 
-create date :2024/2/16 
+create date :2024/2/16   
 """
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
@@ -24,9 +24,9 @@ browser.get("https://jwxt.gdlgxy.edu.cn/")
 button = browser.find_element(By.CLASS_NAME, "btn")
 
 userAccount = browser.find_element("id", "userAccount")
-userAccount.send_keys("2313202060431")
+userAccount.send_keys("学号")
 userPassword = browser.find_element("id", "userPassword")
-userPassword.send_keys("Axiaole@lin3")
+userPassword.send_keys("密码")
 CODE = input("请输入验证码")
 RANDOMCODE = browser.find_element("id", "RANDOMCODE")
 RANDOMCODE.send_keys(CODE)
